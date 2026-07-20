@@ -1,4 +1,4 @@
- Data Structures Readiness Check
+# Data Structures Readiness Check
 
 ## Student
 *Name:* Pierce Ely G. Hibionada
@@ -19,11 +19,12 @@ This Java program demonstrates the use of:
 
 Compile:
 
+```bash
 javac Main.java
+```
 
 Run:
 
+```bash
 java Main
-Sent
-Compose
-Write to
+```
