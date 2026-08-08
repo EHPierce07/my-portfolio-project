@@ -13,6 +13,7 @@ public class SchoolSubjects {
 
 
         System.out.println("x: School Subjects");
+        
         for (int i = 0; i < grade.length; i++) {
             System.out.println("Grade = " + grade[i]);
             for (String subject : subjects[i]) {
