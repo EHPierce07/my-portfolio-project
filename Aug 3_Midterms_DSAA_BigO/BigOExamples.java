@@ -52,6 +52,7 @@ public class BigOExamples {
         }
     }
 
+    @SuppressWarnings("ManualArrayToCollectionCopy")
     public static void merge(int[] numbers, int left,
                              int middle, int right) {
 
