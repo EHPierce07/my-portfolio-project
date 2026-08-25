@@ -1,26 +1,56 @@
-# Stack Book Pages
+# Browser History Stack
 
 ## Description
 
-A simple Java program that demonstrates the basic use of the `Stack` data structure. The program allows the user to enter the page counts of two books and stores them in a stack.
+A simple Java program that demonstrates the use of the **Stack** data structure by simulating browser history.
+
+The program allows the user to enter two websites they visited. These websites are stored in a stack, with the most recently visited page placed on top. The program then simulates pressing the **BACK** button by removing the most recently visited page.
 
 ## Features
 
-- Creates a `Stack<Integer>` to store book page counts
-- Accepts page counts from the user
-- Adds the values to the stack
-- Displays the contents of the stack
-- Uses Java's built-in `Stack` class
+- Creates a `Stack<String>` for browser history
+- Accepts website names from the user
+- Uses `push()` to add websites to the stack
+- Uses `pop()` to simulate pressing the BACK button
+- Uses `peek()` to display the current page
+- Displays the current browser history
 
 ## Concepts Used
 
 - Stack data structure
-- `Stack<Integer>`
+- `Stack<String>`
 - `Scanner`
 - User input
+- `push()`
+- `pop()`
+- `peek()`
 - Variables
-- `add()` method
 - `System.out.println()`
+
+## How It Works
+
+The program follows the **LIFO (Last In, First Out)** principle of a stack.
+
+For example:
+
+```text
+First website:  google.com
+Second website: youtube.com
+
+Stack:
+[google.com, youtube.com]
+```
+
+When the BACK button is pressed, the most recently visited website is removed:
+
+```text
+youtube.com ← removed
+
+Remaining:
+[google.com]
+```
+
+The program then displays `google.com` as the current page.
 
 ## How to Run
 
@@ -32,22 +62,25 @@ For OnlineGDB:
 2. Make sure the class is named `Stacks`.
 3. Paste the code into the editor.
 4. Click **Run**.
-5. Enter the page count for each book when prompted.
+5. Enter the websites when prompted.
 
 ## Sample Output
 
 ```text
 Code is working
-Enter page count for the first book:
-250
-Enter page count for the second book:
-320
-[250, 320]
+Enter first website visited (e.g. google.com):
+google.com
+Enter second website visited (e.g. youtube.com):
+youtube.com
+
+Current Stack (Browser History): [google.com, youtube.com]
+Pressed BACK button. Left: youtube.com
+Now on page: google.com
 ```
 
 ## Purpose
 
-This program was created as a data structures exercise to demonstrate how values can be stored in and accessed through a stack.
+This program was created as a data structures exercise to demonstrate how the **Stack** data structure works using a simple browser history simulation.
 
 ## Author
 
