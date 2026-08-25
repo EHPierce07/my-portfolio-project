@@ -5,19 +5,23 @@ public class Stacks {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
-
-        Stack<Integer> bookPages = new Stack<>();
+        
+        Stack<String> browserHistory = new Stack<>();
 
         System.out.println("Code is working");
 
-        System.out.println("Enter page count for the first book:");
-        int firstBook = input.nextInt();
-        bookPages.add(firstBook);
+        System.out.println("Enter first website visited (e.g. google.com):");
+        String firstPage = input.next();
+        browserHistory.push(firstPage);
 
-        System.out.println("Enter page count for the second book:");
-        int secondBook = input.nextInt();
-        bookPages.add(secondBook);
+        System.out.println("Enter second website visited (e.g. youtube.com):");
+        String secondPage = input.next();
+        browserHistory.push(secondPage);
 
-        System.out.println(bookPages);
+        System.out.println("Current Stack (Browser History): " + browserHistory);
+
+        String lastVisited = browserHistory.pop();
+        System.out.println("Pressed BACK button. Left: " + lastVisited);
+        System.out.println("Now on page: " + browserHistory.peek());
     }
 }
