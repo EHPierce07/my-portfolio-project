@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>TwoWaySelections_Hibionada</label>
+		<id>7</id>
+		<version>0</version>
+	</settings>
+	<users>
+		<user>
+			<path>TwoWaySelections_Hibionada.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>TwoWaySelections_Hibionada.jcp</path>
+		</project>
+	</projects>
+</workspace>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>LogicalOperators</label>
+		<id>54</id>
+		<version>0</version>
+	</settings>
+	<users>
+		<user>
+			<path>LogicalOperators.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>LogicalOperators.jcp</path>
+		</project>
+		<project>
+			<path>TwoWaySelections_Hibionada\TwoWaySelections_Hibionada.jcp</path>
+		</project>
+	</projects>
+</workspace>

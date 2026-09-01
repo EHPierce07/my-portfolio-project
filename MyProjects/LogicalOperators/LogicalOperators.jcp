@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+	<settings>
+		<label>LogicalOperators</label>
+		<root_path>\</root_path>
+		<output_path>classes\</output_path>
+		<source_path>src\</source_path>
+		<jdkprofile_ref/>
+		<compiler_ref/>
+		<ant_ref/>
+	</settings>
+	<ant_events/>
+	<run_items>
+		<item run="LogicalOperators"/>
+	</run_items>
+	<runtimes>
+		<runtime>
+			<label>&lt;Default&gt;</label>
+			<application_ref>&lt;Default&gt;</application_ref>
+			<applet_ref>&lt;Default&gt;</applet_ref>
+			<debugger_ref>&lt;Default&gt;</debugger_ref>
+			<param>&quot;C:\Program Files (x86)\Xinox Software\JCreatorV5LE\JCreator.exe&quot;</param>
+			<run>LogicalOperators</run>
+			<verify>true</verify>
+		</runtime>
+	</runtimes>
+	<libraries/>
+	<files>
+		<include>
+			<folderitem>
+				<path>src</path>
+			</folderitem>
+			<fileitem>
+				<path>src\LogicalOperators.java</path>
+				<folder>src</folder>
+			</fileitem>
+		</include>
+	</files>
+	<tasks/>
+</project>
